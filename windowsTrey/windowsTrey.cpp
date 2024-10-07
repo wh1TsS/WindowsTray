@@ -76,7 +76,7 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam,
 			PostQuitMessage(0);
 		}
 		else if (LOWORD(wParam) == WM_COMMAND_NOTIF) {
-			ShowNotification(TEXT("Hello"), TEXT("World"));
+			ShowNotification(TEXT("Helloooooooooooo"), TEXT("World"));
 		}
 		break;
 	case WM_DESTROY:
